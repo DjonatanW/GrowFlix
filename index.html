@@ -12,8 +12,8 @@
 </head>
 <body>
 
-  <header class="bg-dark text-white" 
-        style="background-image: url('./src/assets/images/banner-initial.png'); background-size: cover; ; height: 70vh;">
+  <header class="bg-black text-white" 
+        style="background-image: url('./src/assets/images/banner-initial.png'); background-size: cover; height: 70vh;">
     <div class="container text-center d-flex flex-column justify-content-center align-items-center h-100">
       <div class="position-absolute top-0 start-0 p-3">
         <a href="./index.html" class="text-decoration-none">
@@ -23,41 +23,47 @@
       </div>
   
       <div class="text-center">
-        <h1 class="display-4 fw-bold">Growcasts, webinars e <br> muito mais. Sem limites.</h1>
-        <p class="lead mt-3">Assista onde quiser</p>
-        <p>Pronto para assistir?</p>
-        <a href="./home.html" class="btn btn-danger btn-lg fw-bold">Vamos lá!</a>
+        <h1 class="fw-bold ">Growcasts, webinars e <br> muito mais. Sem limites.</h1>
+        <h3 class="lead mt-5 p-2">Assista onde quiser</h3>
+        <p class="p-3">Pronto para assistir?</p>
+        <a href="./home.html" class="btn btn-danger btn-lg fw-bold py-4 px-5 fs-4">Vamos lá!</a>
       </div>
     </div>
   </header>
 
-  <main class="background-color:black">
-    <section>
-      <div class="d-flex text-white">
-        <div class="column">
-          <div>
-            <h2>Aproveite na TV.</h2>
-            <p>Assita em Smart TVs,</p>
-            <p>PlayStation, Xbox, Chromecast</p>
-            <p>e outros dispositivos.</p>
+  <main class="bg-black">
+    <section class="bg-black text-white py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="fw-bold">Aproveite na TV.</h2>
+            <p class="fs-4">Assita em Smart TVs,</p>
+            <p class="fs-4">PlayStation, Xbox, Chromecast</p>
+            <p class="fs-4">e outros dispositivos.</p>
           </div>
-          <div>
-            <img src="./src/assets/images/tela-tv-dia-dev.png" alt="imagem de tv">
+          <div class="col-md-6">
+            <img src="./src/assets/images/tela-tv-dia-dev.png" class="img-fluid" alt="imagem de tv">
           </div>
         </div>
       </div>
     </section>
 
-    <section>
-      <div>
-        <img src="./src/assets/images/devices.png" alt="device imagens">
-      </div>
-      <div>
-        <h2>Assista quanod quiser.</h2>
-        <p>Assita no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
+    <section class="bg-black text-white py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="./src/assets/images/devices.png" alt="device imagens">
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center align-items-start" style="max-width: 500px;">
+            <h2 class="fw-bold display-4 mb-3">Assista quando quiser.</h2>
+            <p class="fs-3 ">Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
+          </div>
+        </div>
       </div>
     </section>
-    <section>
+    <section class="text-white">
+      <div class="column container align-items-center 
+      ">
       <h2>Pergutas frequentes</h2>
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
@@ -113,6 +119,7 @@
       </div>
       <p>Pronto para assistir?</p>
       <button class="btn btn-danger" >Vamos lá!</button>
+    </div>
     </section>
     <footer class="bg-black text-white text-center py-4">
       
